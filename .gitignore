@@ -1,0 +1,16 @@
+# Credentials & keys — never commit these
+*.p8
+*.pem
+*.p12
+AuthKey_*
+.env
+
+# Output data
+asc_data/
+output/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
